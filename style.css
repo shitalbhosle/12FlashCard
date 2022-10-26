@@ -1,0 +1,37 @@
+body{
+    background-color: #E1FFB1;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    margin-top: 2rem;
+}
+textarea{
+    resize: none;
+    padding: 10px;
+}
+textarea:focus{
+    outline: none;
+    border: none;
+}
+h1{
+    text-align: center;
+    color: #781C68;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+.box{
+    height: 15rem;
+    width: 20rem;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+    margin-top: 3rem;
+    padding: 20px;
+}
